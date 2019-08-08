@@ -426,7 +426,7 @@ $saber->exceptionReport(0);  //也可以单独设置某个实例
 
 ```php
 SaberGM::default([
-    'exception_report' => 0
+    'exception_report' => 0,
     'use_pool' => true
 ]);
 ```
